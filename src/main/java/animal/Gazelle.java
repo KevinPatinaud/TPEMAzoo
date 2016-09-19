@@ -1,5 +1,11 @@
 package animal;
 
-public class Gazelle {
+public class Gazelle extends Animalabs{
 
+	
+	public Gazelle() {
+		crie = "YYYYYYYYYYYYA";
+	}
+	
+	
 }

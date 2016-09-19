@@ -1,5 +1,9 @@
 package animal;
 
-public class Lion {
+public class Lion extends Animalabs {
 
+	public Lion() {
+		crie = "BROUA";
+	}
+	
 }
