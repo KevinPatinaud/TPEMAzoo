@@ -69,7 +69,7 @@ public class ZooTest {
 	
 		Zoo zoo = new Zoo();
 		
-	//	if ( zoo.getGardien().bonNombreAnimaux() )
+		if ( zoo.getGardien().bonNombreAnimaux() )
 			fail("Le gardien compte mal et le zoo est vide");
 		
 	}
