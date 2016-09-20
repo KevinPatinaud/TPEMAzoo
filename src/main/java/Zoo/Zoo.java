@@ -10,24 +10,13 @@ import personnel.Gardien;
 
 public class Zoo {
 
-	ArrayList<animal> pensionnaires = new ArrayList<animal>();
-	Gardien gardien;
+	private ArrayList<animal> pensionnaires;
+	private Gardien gardien;
 	
 	public Zoo() {
 		gardien = new Gardien(this);
+		pensionnaires = new ArrayList<animal>();
 		
-		
-		addAnimal(new Gazelle());
-		addAnimal(new Gazelle());
-		addAnimal(new Gazelle());
-
-		addAnimal(new Lion());
-		addAnimal(new Lion());
-		addAnimal(new Lion());
-		addAnimal(new Lion());
-
-		addAnimal(new Monkey());
-		addAnimal(new Monkey());
 	}
 	
 	
